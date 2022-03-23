@@ -27,3 +27,10 @@
     text-align: center;
     border-color: blueviolet;
   }
+
+  .grid-item:hover{
+    background-color: blue;
+  }
+  .grid-item-blue{
+    background-color: blue;
+  }
