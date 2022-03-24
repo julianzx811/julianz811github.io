@@ -1,2 +1,2 @@
-1.adjust the grid so that it fits with the screnn
-
+1. adjust the board so that i fist with in the div without changing its size
+2. adjust the div to the rigth
