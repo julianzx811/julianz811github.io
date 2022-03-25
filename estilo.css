@@ -21,6 +21,8 @@
     grid-template-rows: repeat(16, 1fr) ;
     width: 100%;
     height: auto;
+    border-style: solid;
+    border-color: rgb(160, 46, 4);
   }
   .grid-item {
     border: 2px solid rgba(0, 0, 0, 0.8);
