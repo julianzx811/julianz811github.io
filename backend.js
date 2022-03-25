@@ -21,14 +21,21 @@ function generate_board(size){
 generate_board(256);
 
 //pencial draw functions
+let current_pencil = 'rainbow';
 const divs = document.querySelectorAll('div');
 
 let mouseENCIMA = (e) =>{
-    if(!(e.target.id == "container")){
     const divcito = document.querySelector('#'+e.target.id);
+    if(!(e.target.id === "container") && current_pencil === 'rainbow'){
+        console.log(e);
         divcito.style['background-color'] = random_rgba();
     }
+    else if(!(e.target.id === "container" && current_pencil === 'NIGGA'){
+        divcito.style['background-color'] = 'black';
+    }
 };
+let rainbowmodeNIGGA = () =>{current_pencil = 'rainbow'};
+let NIGGAmodeNIGGA = () =>{current_pencil = 'NIGGA'};
 
 divs.forEach(div => {
     div.addEventListener('mouseover',mouseENCIMA);
