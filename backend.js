@@ -26,11 +26,11 @@ const divs = document.querySelectorAll('div');
 
 let mouseENCIMA = (e) =>{
     const divcito = document.querySelector('#'+e.target.id);
-    if(!(e.target.id === "container") && current_pencil === 'rainbow'){
+    if(e.target.id.includes("grid-item") && current_pencil === 'rainbow'){
         console.log(e);
         divcito.style['background-color'] = random_rgba();
     }
-    else if(!(e.target.id === "container") && current_pencil === 'NIGGA'){
+    else if(e.target.id.includes("grid-item") && current_pencil === 'NIGGA'){
         divcito.style['background-color'] = 'black';
     }
 };
