@@ -30,7 +30,7 @@ let mouseENCIMA = (e) =>{
         console.log(e);
         divcito.style['background-color'] = random_rgba();
     }
-    else if(!(e.target.id === "container" && current_pencil === 'NIGGA'){
+    else if(!(e.target.id === "container") && current_pencil === 'NIGGA'){
         divcito.style['background-color'] = 'black';
     }
 };
